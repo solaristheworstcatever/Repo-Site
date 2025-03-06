@@ -1,0 +1,37 @@
+/* GRID */
+.website_content .grid {
+    display: flex;
+    margin: 0;
+    margin-top: 20px;
+}
+.website_content .grid a {
+    width: calc(33.33% - 27px);
+    max-width: 352px;
+}
+.website_content .grid a .image_container {
+    overflow: hidden;
+    position: relative;
+    height: 198px;
+    max-width: 352px;
+    width: 100%;
+    border-radius: 20px;
+}
+.website_content .grid a img {
+    border-radius: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.website_content .grid a p {
+    margin: 0;
+}
+.website_content .grid a h3 {
+    margin: 0;
+    margin-top: 13px;
+}

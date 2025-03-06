@@ -1,0 +1,223 @@
+/* BACKGROUND */
+
+.background_container {
+    position: absolute;
+    top: 0;
+    height: var(--background_height);
+    width: 100%;
+
+}
+.background_container .background {
+    background-position: center;
+    background-size: cover;
+
+    position: sticky;
+    z-index: -1;
+}
+
+.transition_gradient {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    height: 240px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+/* BANNER TITLE */
+
+.banner_title p {
+    position: absolute;
+    top: 149px;
+    width: 100%;
+
+    font-family: 'Raindondo';
+    font-weight: 500;
+    font-size: 64px;
+    letter-spacing: -1px;
+    line-height: 41px;
+    text-align: center;
+
+    filter: drop-shadow(0px 0px 15px #000000) drop-shadow(0px 0px 15px #00000070);
+
+}
+
+/* WEBSITE CONTENT */
+
+.website_content {
+    width: calc(100vw - 100px);
+    margin: auto;
+    margin-top: 280px;
+    padding-bottom: 70px;
+
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(12.5px);
+
+    overflow: hidden;
+}
+
+/* TITLE */
+.website_content h2 {
+    padding-top: 53px;
+    margin-left: 72px;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+
+    position: relative;
+}
+.website_content .title {
+    position: relative;
+}
+.website_content .title .anchor {
+    position: absolute;
+    top: -89px;
+}
+
+
+
+/* COMBINED TITLE */
+.website_content .combined_title {
+    padding-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    text-wrap: nowrap;
+}
+.website_content .combined_title .handle {
+    width: 100%;
+}
+.website_content .combined_title hr {
+    margin-block-end: auto;
+    margin-block-start: auto;
+    margin-left: 101px;
+    margin-right: 60px;
+
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-top: 4px solid #ffffff;
+    border-radius: 5px;
+}
+.website_content .combined_title h2 {
+    padding-top: 0;
+}
+
+
+.website_content .combined_title .button {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.website_content .combined_title .button a {
+    height: 44px;
+    border: 3px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    transition: border-color 0.15s ease 0s;
+}
+.website_content .combined_title .button a p {
+    padding-left: 42px;
+    padding-right: 42px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.15s ease 0s;
+}
+.website_content .combined_title .button a:hover {
+    border-color: rgba(255, 255, 255, 0.75);
+}
+.website_content .combined_title .button a:hover p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* GRID */
+.website_content .grid {
+    padding-top: 43px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: grid;
+    flex-wrap: wrap;
+    align-items: start;
+    grid-template-columns: repeat(auto-fill, 340px);
+    justify-content: center;
+
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.website_content .grid a {
+    width: 320px;
+    padding: 10px;
+
+    position: relative;
+
+    border-radius: 29px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.website_content .grid a .border {
+    pointer-events: none;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    transition: top 0.2s ease 0s, left 0.2s ease 0s, width 0.2s ease 0s, height 0.2s ease 0s, border-color 0.2s ease 0s;
+}
+.website_content .grid a img {
+    border-radius: 20px;
+    width: 320px;
+    height: 180px;
+}
+.website_content .grid a h3 {
+    margin-top: 13px;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 0.2s ease 0s;
+}
+.website_content .grid a p {
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.2s ease 0s;
+}
+
+
+.website_content .grid a:hover .border {
+    border-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+}
+.website_content .grid a:hover h3 {
+    color: #FFFFFF;
+}
+.website_content .grid a:hover p {
+    color: rgba(255, 255, 255, 0.75);
+}

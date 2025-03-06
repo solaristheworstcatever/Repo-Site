@@ -1,0 +1,12 @@
+/* BACKGROUND */
+
+.background_container .background {
+    background-image: url(../media/img/background/Extras.jpg);
+    top: 0px;
+    height: 100vh;
+}
+@media only screen and (min-width: 79vh) {
+    .background_container .background {
+        height: 126.58vw;
+    }
+}

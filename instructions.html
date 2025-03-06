@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/img/logo/favicon.png" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/website_content.css">
+    <link rel="stylesheet" href="assets/css/instructions.css">
+    <link rel="stylesheet" href="assets/css/narrow_content.css">
+    <script src="assets/js/include_html.js" defer></script>
+    <script src="assets/js/content_height_lists.js" defer></script>
+    <script src="assets/js/selector.js" defer></script>
+    <script src="assets/js/footer_popup.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div id="header_requester"></div>
+
+    <!-- BACKGROUND -->
+
+    <div class="background_container" id="bg_container">
+        <div class="background" id="background">
+        </div>
+    </div>
+
+    <div class="transition_gradient">
+
+    </div>
+
+    <!-- BANNER TITLE -->
+    <div class="banner_title">
+        <p>
+            instructions
+        </p>
+    </div>
+
+
+
+    <!-- WEBSITE CONTENT -->
+
+    <div class="website_content" id="website_content"> 
+
+        <!-- COMPILARIONS -->
+        <div class="title">
+            <h2>
+                Compilations
+            </h2>
+            <div class="anchor" id="compilations">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/download.png" alt="download" draggable="false">
+                <div class="text">
+                    <p>
+                        1: Extract the downloaded zip
+                    </p>
+                </div>
+            </div>
+            <p class="grayed_out">
+                Select the level editor you're using:
+            </p>
+            <div class="selector">
+                <div class="buttons">
+                    <div class="button">Community / Official
+                        <input type="radio" name="leditor" value="community">
+                    </div>
+                    <div class="button">Henry's
+                        <input type="radio" name="leditor" value="henrys">
+                    </div>
+                    <div class="button">Rained
+                        <input type="radio" name="leditor" value="rained">
+                    </div>
+                    <div class="button">RWE+ / Ogscule
+                        <input type="radio" name="leditor" value="rwe+">
+                    </div>
+                </div>
+                <div class="selector_content" id="leditor_selector">
+                    <div class="option" id="community">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    2: Open your leditor's initial folder
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="henrys">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    2: From the initial folder of your leditor go through folders /assets/renderer/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rained">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    2: If you've installed Rained with previously existing leditor folder, go to its destination<br>
+                                    <span class="grayed_out">Otherwise:</span><br>
+                                    From the initial folder of your leditor go to the /Data/ folder
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rwe+">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    2: From the initial folder of your leditor go through folders /drizzle/Data/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/replace.png" alt="replace" draggable="false">
+                <div class="text">
+                    <p>
+                        3: Insert the contents of the zip and hit "replace"
+                    </p>
+                </div>
+            </div>
+            <!-- <p>
+                hehe hoohoo I like leaving easter eggs for fellow web developers
+            </p>
+            <h3>
+                Community / Official leditor:
+            </h3>
+            <ul>
+                <li>Just fucking UNPACK THE ZIP</li>
+                <li>THROW THE CONTENTS OF THE ZIP in the folder of youR LEDITOR</li>
+                <li>And HIT REPLACE OK??????</li>
+            </ul>
+            <h3>
+                Henry Markles' Leditor:
+            </h3>
+            <ul>
+                <li>Go to the leditor's INITIAL IDRECTORY</li>
+                <li>Go through FOLDERS /assets/renderer/</li>
+                <li>And REPLACE THE CONTENTS with the CONTENTS of the ZIP</li>
+            </ul>
+            <h3>
+                Rained Leditor:
+            </h3>
+            <p>
+                HERE's where shit gets HARD
+            </p>
+            <p>
+                If you've instaLLEd Rained AND LINKED a PREVIOUSLY EXISTING leditor folder, then FIND IT YOURSELF BITCH and follow the instRUCTIONS for COMMUNITY / Official leditor
+            </p>
+            <p>
+                OTHERWISE:
+            </p>
+            <ul>
+                <li>Go to the leditor's INITIAL IDRECTORY</li>
+                <li>Find the /Data/ FOLDER</li>
+                <li>INSERT ZIP CONTENTS and hit rEPLACE</li>
+            </ul>
+            <h3>
+                RWE+ / Ogscule:
+            </h3>
+            <ul>
+                <li>SAME SHIT AS BEFORE</li>
+                <li>You NEED folders /drizzle/Data/</li>
+                <li>And then READ PREVIOUS instructions 'cause I'm DONE with this bs</li>
+            </ul> -->
+        </div>
+
+        <!-- LEVELS -->
+        <div class="title">
+            <h2>
+                Levels
+            </h2>
+            <div class="anchor" id="levels">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/download.png" alt="download" draggable="false">
+                <div class="text">
+                    <p>
+                        1: Extract the downloaded zip
+                    </p>
+                </div>
+            </div>
+            <p>
+                2: Locate your leditor's Projects folder:
+            </p>
+            <div class="selector">
+                <div class="buttons">
+                    <div class="button">Community / Official / RWE+ / Ogscule
+                        <input type="radio" name="leditor" value="community">
+                    </div>
+                    <div class="button">Henry's
+                        <input type="radio" name="leditor" value="henrys">
+                    </div>
+                    <div class="button">Rained
+                        <input type="radio" name="leditor" value="rained">
+                    </div>
+                </div>
+                <div class="selector_content" id="leditor_selector">
+                    <div class="option" id="community">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /LevelEditorProjects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="henrys">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /projects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rained">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    If you've installed Rained with previously existing leditor folder, go to its destination and to the folder /LevelEditorProjects/<br>
+                                    <span class="grayed_out">Otherwise:</span><br>
+                                    /Data/LevelEditorProjects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/copy.png" alt="copy" draggable="false">
+                <div class="text">
+                    <p>
+                        3: Copy and paste the txt's and png's
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- TILES -->
+        <div class="title">
+            <h2>
+                Tiles
+            </h2>
+            <div class="anchor" id="tiles">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/download.png" alt="download" draggable="false">
+                <div class="text">
+                    <p>
+                        1: Extract the downloaded zip
+                    </p>
+                </div>
+            </div>
+            <p>
+                2: Locate your leditor's Graphics folder:
+            </p>
+            <div class="selector">
+                <div class="buttons">
+                    <div class="button">Community / Official
+                        <input type="radio" name="leditor" value="community">
+                    </div>
+                    <div class="button">Henry's
+                        <input type="radio" name="leditor" value="henrys">
+                    </div>
+                    <div class="button">Rained
+                        <input type="radio" name="leditor" value="rained">
+                    </div>
+                    <div class="button">RWE+ / Ogscule
+                        <input type="radio" name="leditor" value="rwe+">
+                    </div>
+                </div>
+                <div class="selector_content" id="leditor_selector">
+                    <div class="option" id="community">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /Graphics/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="henrys">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /assets/renderer/Graphics/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rained">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    If you've installed Rained with previously existing leditor folder, go to its destination and to the folder /Graphics/<br>
+                                    <span class="grayed_out">Otherwise:</span><br>
+                                    /Data/Graphics/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rwe+">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /drizzle/Data/Graphics/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/copy.png" alt="copy" draggable="false">
+                <div class="text">
+                    <p>
+                        3: Copy the text from the Copy_To_Init.txt into the Init.txt on a new line
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- PROPS -->
+        <div class="title">
+            <h2>
+                Props
+            </h2>
+            <div class="anchor" id="props">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/download.png" alt="download" draggable="false">
+                <div class="text">
+                    <p>
+                        1: Extract the downloaded zip
+                    </p>
+                </div>
+            </div>
+            <p>
+                2: Locate your leditor's Props folder:
+            </p>
+            <div class="selector">
+                <div class="buttons">
+                    <div class="button">Community / Official
+                        <input type="radio" name="leditor" value="community">
+                    </div>
+                    <div class="button">Henry's
+                        <input type="radio" name="leditor" value="henrys">
+                    </div>
+                    <div class="button">Rained
+                        <input type="radio" name="leditor" value="rained">
+                    </div>
+                    <div class="button">RWE+ / Ogscule
+                        <input type="radio" name="leditor" value="rwe+">
+                    </div>
+                </div>
+                <div class="selector_content" id="leditor_selector">
+                    <div class="option" id="community">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /Props/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="henrys">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /assets/renderer/Props/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rained">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    If you've installed Rained with previously existing leditor folder, go to its destination and to the folder /Props/<br>
+                                    <span class="grayed_out">Otherwise:</span><br>
+                                    /Data/Props/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rwe+">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /drizzle/Data/Props/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/copy.png" alt="copy" draggable="false">
+                <div class="text">
+                    <p>
+                        3: Copy the text from the Copy_To_Init.txt into the Init.txt on a new line
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MATERIALS -->
+        <div class="title">
+            <h2>
+                Materials
+            </h2>
+            <div class="anchor" id="materials">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/download.png" alt="download" draggable="false">
+                <div class="text">
+                    <p>
+                        1: Extract the downloaded zip
+                    </p>
+                </div>
+            </div>
+            <p>
+                2: Locate or create the Materials folder in the following path:
+            </p>
+            <div class="selector">
+                <div class="buttons">
+                    <div class="button">Community / Official
+                        <input type="radio" name="leditor" value="community">
+                    </div>
+                    <div class="button">Henry's
+                        <input type="radio" name="leditor" value="henrys">
+                    </div>
+                    <div class="button">Rained
+                        <input type="radio" name="leditor" value="rained">
+                    </div>
+                    <div class="button">RWE+ / Ogscule
+                        <input type="radio" name="leditor" value="rwe+">
+                    </div>
+                </div>
+                <div class="selector_content" id="leditor_selector">
+                    <div class="option" id="community">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /Materials/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="henrys">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /assets/renderer/Materials/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rained">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    If you've installed Rained with previously existing leditor folder, go to its destination and to the folder /Materials/<br>
+                                    <span class="grayed_out">Otherwise:</span><br>
+                                    /Data/Materials/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rwe+">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /drizzle/Data/Materials/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/copy.png" alt="copy" draggable="false">
+                <div class="text">
+                    <p>
+                        3: Copy the text from the Copy_To_Init.txt into the Init.txt on a new line
+                    </p>
+                </div>
+            </div>
+            <p class="grayed_out">
+                Additionally for Rained Editor you can install <b>material previews</b><br>
+                They go in the folder /assets/mat-previews/
+            </p>
+        </div>
+
+        <!-- EFFECTS -->
+        <div class="title">
+            <h2>
+                Effects
+            </h2>
+            <div class="anchor" id="effects">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/download.png" alt="download" draggable="false">
+                <div class="text">
+                    <p>
+                        1: Extract the downloaded zip
+                    </p>
+                </div>
+            </div>
+            <p>
+                2: Locate or create the Effects folder in the following path:
+            </p>
+            <div class="selector">
+                <div class="buttons">
+                    <div class="button">Community / Official
+                        <input type="radio" name="leditor" value="community">
+                    </div>
+                    <div class="button">Henry's
+                        <input type="radio" name="leditor" value="henrys">
+                    </div>
+                    <div class="button">Rained
+                        <input type="radio" name="leditor" value="rained">
+                    </div>
+                    <div class="button">RWE+ / Ogscule
+                        <input type="radio" name="leditor" value="rwe+">
+                    </div>
+                </div>
+                <div class="selector_content" id="leditor_selector">
+                    <div class="option" id="community">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /Effects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="henrys">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /assets/renderer/Effects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rained">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    If you've installed Rained with previously existing leditor folder, go to its destination and to the folder /Effects/<br>
+                                    <span class="grayed_out">Otherwise:</span><br>
+                                    /Data/Effects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option" id="rwe+">
+                        <div class="image_text_grid">
+                            <img src="assets/media/img/icons/folder.png" alt="folder" draggable="false">
+                            <div class="text">
+                                <p>
+                                    /drizzle/Data/Effects/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_text_grid">
+                <img src="assets/media/img/icons/copy.png" alt="copy" draggable="false">
+                <div class="text">
+                    <p>
+                        3: Copy the text from the Copy_To_Init.txt into the Init.txt on a new line
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="footer_requester"></div>
+    
+</body>
+
+</html>

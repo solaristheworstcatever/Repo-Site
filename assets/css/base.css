@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: Raindondo;
+    src: url(../fonts/Raindondo.otf);
+}
+
+:root {
+    --background_height: 3168px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}

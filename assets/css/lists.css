@@ -1,0 +1,99 @@
+/* SEARCHBAR */
+.website_content .searchbar {
+
+    position: relative;
+
+    margin-right: 46px;
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+.website_content .searchbar input {
+    all: unset;
+
+    width: 106px;
+    height: 34px;
+    padding-left: 18px;
+    padding-right: 31px;
+
+    border: 3px solid;
+    border-radius: 25px;
+    border-color: rgb(191, 191, 191);
+    
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: rgba(255, 255, 255, 0.75);
+    transition: all 0.15s ease 0s;
+    &:focus {
+        width: 200px;
+        color: rgba(255, 255, 255, 1);
+        border-color: rgba(255, 255, 255);
+    }
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.3);
+        transition: all 0.15s ease 0s;
+    }
+    &:hover::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &:focus::placeholder {
+        color: rgba(255, 255, 255, 0.65);
+    }
+}
+.website_content .searchbar img {
+    position: absolute;
+    top: 61px;
+    right: 11px;
+
+    opacity: 75%;
+    z-index: -1;
+    transition: all 0.15s ease 0s;
+}
+.website_content .searchbar input:focus + img {
+    opacity: 100%;
+}
+
+
+/* NO RESULTS */
+.website_content .no_results {
+    /* display: none; */
+    display: none;
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+
+    & p {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 26px;
+
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+
+/* FIRST TITLE */
+#first_title {
+    padding-top: 15px;
+
+    & .anchor {
+        top: -164px;
+    }
+}
+
+/* FIRST GRID */
+#first_grid {
+    padding-top: 40px;
+}
