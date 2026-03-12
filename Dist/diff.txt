@@ -1,16 +1,24 @@
 
-
 Graphics
-LevelEditorProjects\Region Expansions\Diverse Shelters
-LevelEditorProjects\Region Packs\Eastern Expanse [EDC] [EE]
-LevelEditorProjects\Region Packs\Sunlit Trail [CW] [FR] [GU] [EU] [MF] [NP] [PA] [SD]
-LevelEditorProjects\Regions\Derelict Installation [DLI]
-LevelEditorProjects\Regions
-LevelEditorProjects\Regions\Sky Port [S9]
-LevelEditorProjects\Regions\Steel Mill [SM]
-LevelEditorProjects\Regions\The Pipe [TP]
-Materials
-Misc\Themes
-New Assets
-New Assets\Misc
+Graphics\Inits
+LevelEditorProjects\Region Expansions\Drainage System Remake
+LevelEditorProjects\Region Expansions\Drainage System Remake\Gates
+LevelEditorProjects\Region Expansions\Garbage Wastes Expanded
+LevelEditorProjects\Region Expansions\Garbage Wastes Expanded\Old
+LevelEditorProjects\Region Expansions\Industrial Complex Remake
+LevelEditorProjects\Region Expansions\Older Hunter\Garbage Wastes
+LevelEditorProjects\Region Expansions\Older Hunter\Looks to the Moon
+LevelEditorProjects\Region Expansions\Older Hunter\Water Front Facility
+LevelEditorProjects\Region Expansions\Outskirts Remake
+LevelEditorProjects\Regions\Anthill [ANT]
+LevelEditorProjects\Regions\Anthill [ANT]\Arenas
+"LevelEditorProjects\Regions\Coastline Cliffs [\304\230P]\304
+LevelEditorProjects\Regions\Corrosive Geysers [WAWA2]
+LevelEditorProjects\Regions\Silent Scenery [SHH]\Arenas
+LevelEditorProjects\Regions\Silent Scenery [SHH]\Connections
+LevelEditorProjects\Regions\Silent Scenery [SHH]
+New Assets\Materials
+New Assets\Props
+New Assets\Tiles
+Props\Inits
 Props
