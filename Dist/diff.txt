@@ -1,24 +1,56 @@
 
+Effects
+Effects\Inits
 Graphics
 Graphics\Inits
-LevelEditorProjects\Region Expansions\Drainage System Remake
-LevelEditorProjects\Region Expansions\Drainage System Remake\Gates
-LevelEditorProjects\Region Expansions\Garbage Wastes Expanded
-LevelEditorProjects\Region Expansions\Garbage Wastes Expanded\Old
-LevelEditorProjects\Region Expansions\Industrial Complex Remake
-LevelEditorProjects\Region Expansions\Older Hunter\Garbage Wastes
-LevelEditorProjects\Region Expansions\Older Hunter\Looks to the Moon
-LevelEditorProjects\Region Expansions\Older Hunter\Water Front Facility
-LevelEditorProjects\Region Expansions\Outskirts Remake
-LevelEditorProjects\Regions\Anthill [ANT]
-LevelEditorProjects\Regions\Anthill [ANT]\Arenas
-"LevelEditorProjects\Regions\Coastline Cliffs [\304\230P]\304
-LevelEditorProjects\Regions\Corrosive Geysers [WAWA2]
-LevelEditorProjects\Regions\Silent Scenery [SHH]\Arenas
-LevelEditorProjects\Regions\Silent Scenery [SHH]\Connections
-LevelEditorProjects\Regions\Silent Scenery [SHH]
+LevelEditorProjects\Archived Level Editor\Myrmice's Extras
+LevelEditorProjects\Archived Level Editor\Tcan's Rooms
+LevelEditorProjects\CrimsonSpiresStuff\CrimsonSpiresStuff\TZM Ledditerfiles
+LevelEditorProjects\Region Packs\1989 [9A, 9D, 9H, 9O, 9P]\Acidic Pipeline
+LevelEditorProjects\Region Packs\1989 [9A, 9D, 9H, 9O, 9P]\Docking Station
+LevelEditorProjects\Region Packs\1989 [9A, 9D, 9H, 9O, 9P]\Gates
+LevelEditorProjects\Region Packs\1989 [9A, 9D, 9H, 9O, 9P]\Hazy Meadow
+LevelEditorProjects\Region Packs\1989 [9A, 9D, 9H, 9O, 9P]\Ruined Atoll
+LevelEditorProjects\Region Packs\1989 [9A, 9D, 9H, 9O, 9P]\The Outer Rim
+LevelEditorProjects\Region Packs\Eastern Expanse [EDC] [EE]\Dark Caves
+LevelEditorProjects\Region Packs\Eastern Expanse [EDC] [EE]\Flooded Nest
+LevelEditorProjects\Region Packs\Eastern Expanse [EDC] [EE]\Tenebrous Caverns
+LevelEditorProjects\Region Packs\Sunlit Trail [CW] [FR] [GU] [EU] [MF] [NP] [PA] [SD]\Chasing Wind
+LevelEditorProjects\Regions\Eroded Refinery [ER]\Connections
+LevelEditorProjects\Regions\Eroded Refinery [ER]\Downpour
+LevelEditorProjects\Regions\Eroded Refinery [ER]
+LevelEditorProjects\Regions\Eroded Refinery [ER]\Gates
+LevelEditorProjects\Regions\Eroded Refinery [ER]\Scrapped and Unused Rooms
+LevelEditorProjects\Regions\Industrial Underpass [NB]\Connections
+LevelEditorProjects\Regions\Industrial Underpass [NB]\Gates
+LevelEditorProjects\Regions\Industrial Underpass [NB]
+LevelEditorProjects\Regions\Mud Pools [MUDP]\Arenas
+LevelEditorProjects\Regions\Mud Pools [MUDP]\Connections
+LevelEditorProjects\Regions\Mud Pools [MUDP]\Gates
+LevelEditorProjects\Regions\Mud Pools [MUDP]
+LevelEditorProjects\Regions\Overgrown Waterworks [LS]\Arenas
+LevelEditorProjects\Regions\Overgrown Waterworks [LS]\Connections
+LevelEditorProjects\Regions\Overgrown Waterworks [LS]\Gates
+LevelEditorProjects\Regions\Overgrown Waterworks [LS]
+LevelEditorProjects\Regions\Overgrown Waterworks [LS]\Scrapped and Unused Rooms
+LevelEditorProjects\Regions\Rusted Factory (SFFF)\Gates
+LevelEditorProjects\Regions\Rusted Factory (SFFF)
+LevelEditorProjects\Regions\Waxing Candleflame [WCF]\Gates
+LevelEditorProjects\Regions\Waxing Candleflame [WCF]
+Materials
+Materials\Inits
+New Assets\Effects
 New Assets\Materials
+New Assets\Misc\Autotiles
+New Assets\Misc\Themes
+New Assets\Misc\Themes\bones
+New Assets\Misc\Themes\candy
+New Assets\Misc\Themes\charcoal
+New Assets\Misc\Themes\coffee
+New Assets\Misc\Themes\dreams
+New Assets\Misc\Themes\retro
+New Assets\Misc\Themes\signal_spires
 New Assets\Props
 New Assets\Tiles
-Props\Inits
 Props
+Props\Inits
