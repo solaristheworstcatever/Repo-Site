@@ -1,0 +1,10 @@
+{unzip} [Extract|https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5] the contents of the downloaded `.zip` file.
+{move} Move the extracted `.png` files into another window with the folder specified by your program open.
+[program specific]
+Rained (Data) | `{program}/Data/Materials/` 
+Henry's | `{program}/assets/renderer/Materials/`
+Community | `{program}/Materials/`
+RWE+ / Ogscule | `{program}/drizzle/Data/Materials/`
+[/]
+{copy_text} Copy the text from the `copy_to_init.txt` file into the `init.txt` file located in your tiles folder. Move the lines below the category headers you want them to show up under.
+(Optionally) Material previews when hovering over them in Rained are not hardcoded, meaning they can be added / modified. The location of material previews can be found in `{program}/assets/mat-previews`.

@@ -1,0 +1,18 @@
+-[Background / Layer 4 Screens]
+Every room render can utilize a background image for each of it's screens. The background image should be the same size as the render image, and renamed for the corrosponding screen as `(roomname_#)_bkg`. Example: `sh_d01_3_bkg.png` from MSC.
+A background image comprises of any pixels, which will have the fog color applied on top of it.
+
+-[Custom Effect Colors]
+Effect colors outside the scope of the `effectcolors.png` can be made in several ways.
+- The `ModifyEffectColor(A/B)` room effects in vanilla.
+- The `ReplaceEffectColor(A/B)` room effects from RegionKit. (semi-deprecated as of Watcher)
+These can only alter the values of an existing effect color from the image file. This might limit exploring values with multiple hues and contrasts.
+
+- Regionkit's `PaletteEffectColor` room effect, which will use the unused keys of a palette image as the effect colors instead.
+These have to be drawn onto the palette image directly, with the knowledge of where and what each key controls.
+
+(While it is technically possible to "extend" the existing effect colors through the image file, there is no reliable way to merge the effect colors together to avoid conflictions in the current system.|warning)
+
+-[Ripplespace Specific Screens (Watcher)]
+The Watcher DLC includes support for [Ripplespace|https://rainworld.miraheze.org/wiki/Watcher#Ripplespace] screens. To create a Ripplespace screen, rerender the room with the desired edits and add `_ripple` to the end of the rendered `.png` filenames. 
+(Only image files are supported.|warning)

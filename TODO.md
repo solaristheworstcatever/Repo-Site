@@ -1,0 +1,11 @@
+- TODO
+    - Init selection based packing for the website
+        - Asset selector should scroll to top when opening
+        - Lock download selections to one init at a time due to possible conflictions in category names
+        - Clean up the init comparator
+            - Loading screen reused for progress?
+            - Category separator in asset selector
+            - Asset selector info for the comparisons (zip info)
+            - Diff for modified init lines
+            - Find a way to compare image data?
+    - regions have a link to their respective interactive map (would need to store the links manually somewhere to reference)

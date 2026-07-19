@@ -1,0 +1,1054 @@
+{
+  "Assets": {
+    "Effects.zip": {},
+    "Materials.zip": {},
+    "Props.zip": {},
+    "Vanilla Pack.zip": {},
+    "Graphics.zip": {}
+  },
+  "Levels": {
+    "Templates": {
+      "Gate Templates": {
+        "Gate Templates.zip": {}
+      },
+      "Shelter Templates": {
+        "Shelter Templates.zip": {}
+      },
+      "Size Templates": {
+        "Size Templates.zip": {},
+        "1 Screen Wide.zip": {},
+        "10 Screens Wide.zip": {},
+        "11-20 Screens Wide.zip": {},
+        "2 Screens Wide.zip": {},
+        "3 Screens Wide.zip": {},
+        "4 Screens Wide.zip": {},
+        "5 Screens Wide.zip": {},
+        "6 Screens Wide.zip": {},
+        "7 Screens Wide.zip": {},
+        "8 Screens Wide.zip": {},
+        "9 Screens Wide.zip": {}
+      }
+    },
+    "Region Expansions": {
+      "Chimney Leg": {
+        "Chimney Leg.zip": {}
+      },
+      "Drainage System Remake": {
+        "Drainage System Remake.zip": {},
+        "Gates.zip": {}
+      },
+      "Expanded Industrial Complex": {
+        "Expanded Industrial Complex.zip": {}
+      },
+      "Diverse Shelters": {
+        "CC.zip": {},
+        "CL.zip": {},
+        "DM.zip": {},
+        "DS.zip": {},
+        "GW.zip": {},
+        "HR.zip": {},
+        "HI.zip": {},
+        "LC.zip": {},
+        "LF.zip": {},
+        "LM.zip": {},
+        "MS.zip": {},
+        "RM.zip": {},
+        "SB.zip": {},
+        "OE.zip": {},
+        "SI.zip": {},
+        "SH.zip": {},
+        "SL.zip": {},
+        "SU.zip": {},
+        "UW.zip": {},
+        "VS.zip": {},
+        "SS.zip": {},
+        "WARA.zip": {},
+        "WARD.zip": {},
+        "WARB.zip": {},
+        "WARE.zip": {},
+        "WARC.zip": {},
+        "WARF.zip": {},
+        "WARG.zip": {},
+        "WAUA.zip": {},
+        "WBLA.zip": {},
+        "WMPA.zip": {},
+        "WPTA.zip": {},
+        "WORA.zip": {},
+        "WPGA.zip": {},
+        "WRFA.zip": {},
+        "WRRA.zip": {},
+        "WTDB.zip": {},
+        "WRFB.zip": {},
+        "WVWA.zip": {},
+        "WVWB.zip": {}
+      },
+      "Expanded Leg": {
+        "Expanded Leg.zip": {}
+      },
+      "Expanded Outskirts": {
+        "Expanded Outskirts.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Drainage System & Undergrowth +": {
+        "Drainage System & Undergrowth +.zip": {},
+        "Areans.zip": {},
+        "Connections.zip": {},
+        "Drainage System+.zip": {},
+        "Gates.zip": {},
+        "Undergrowth+.zip": {}
+      },
+      "Floatsam Cove": {
+        "Floatsam Cove.zip": {}
+      },
+      "Garbage Wastes Expanded": {
+        "Garbage Wastes Expanded.zip": {},
+        "Old.zip": {}
+      },
+      "Industrial Complex Remake": {
+        "Industrial Complex Remake.zip": {}
+      },
+      "Outskirts Remake": {
+        "Outskirts Remake.zip": {}
+      },
+      "Pyramid Wall": {
+        "Pyramid Wall.zip": {}
+      },
+      "Subterranean Expanded": {
+        "Subterranean Expanded.zip": {}
+      },
+      "Saint's Outer Expanse": {
+        "Arena.zip": {},
+        "Gate.zip": {},
+        "Outer Expanse.zip": {},
+        "Subterrarian.zip": {}
+      },
+      "Triple Trouble": {
+        "Urban Expanse.zip": {}
+      },
+      "Older Hunter": {
+        "Garbage Wastes.zip": {},
+        "Looks to the Moon.zip": {},
+        "Water Front Facility.zip": {}
+      },
+      "Timeline Corrections": {
+        "BG.zip": {},
+        "FP.zip": {},
+        "LTTM.zip": {},
+        "Misc.zip": {},
+        "SL.zip": {}
+      }
+    },
+    "Region Packs": {
+      "Dreamscape Expansion [COBU] [RIVR]": {
+        "Coastal Building.zip": {},
+        "Coastal Building old.zip": {},
+        "Gates.zip": {},
+        "The River.zip": {}
+      },
+      "1989 [9A, 9D, 9H, 9O, 9P]": {
+        "Acidic Pipeline.zip": {},
+        "Docking Station.zip": {},
+        "Gates.zip": {},
+        "Hazy Meadow.zip": {},
+        "Ruined Atoll.zip": {},
+        "The Outer Rim.zip": {}
+      },
+      "Drought 1.5 [FS] [MW] [LM]": {
+        "Drought 1.5 [FS] [MW] [LM].zip": {},
+        "Expansions.zip": {},
+        "Forest Sanctuary.zip": {},
+        "Fractured Exterior.zip": {},
+        "Looks to the Moon.zip": {}
+      },
+      "Icebreaker [PZLAV] [PZLSS] [PZLDD] [PZLIB] [PZLHUB] [PZLVS]": {
+        "Algae Vats.zip": {},
+        "Cryptic Superstructure.zip": {},
+        "Desolate Dunes.zip": {},
+        "Icebreaker.zip": {},
+        "The Fulcrum.zip": {},
+        "Vibrant Shores.zip": {}
+      },
+      "Last Wish": {
+        "Arenas.zip": {},
+        "GW.zip": {},
+        "Last Wish Nightmare.zip": {},
+        "LC.zip": {},
+        "MS.zip": {},
+        "OE.zip": {},
+        "SB.zip": {},
+        "SS.zip": {},
+        "UW.zip": {}
+      },
+      "Eastern Expanse [EDC] [EE]": {
+        "Connections.zip": {},
+        "Eastern Expanse.zip": {},
+        "Gates.zip": {},
+        "Tenebrous Caverns.zip": {}
+      },
+      "Drought [FS] [MW] [OL] [IS]": {
+        "Forest Sanctuary.zip": {},
+        "Fractured Exterior.zip": {},
+        "Looks to the Moon.zip": {},
+        "Siphonal System.zip": {}
+      },
+      "Shrouded Assembly [FO] [LH] [SE]": {
+        "Fog Gulch.zip": {},
+        "Lunar Byway.zip": {},
+        "Steaming Edifice.zip": {}
+      },
+      "Polar Circut [CELESTE] [XQ] [IQ] [G0] [LTHE]": {
+        "Celestial Summit.zip": {},
+        "Connections.zip": {},
+        "Fractured Foundry.zip": {},
+        "Freezing Flights.zip": {},
+        "Gates.zip": {},
+        "Global Hyper-Transit System.zip": {},
+        "Mountain's Edge.zip": {}
+      },
+      "Old New Horizons [AY] [CF] [FN] [MA] [OS] [SW] [CA] [VI] [ME]": {
+        "Abyss.zip": {},
+        "Central Factory.zip": {},
+        "Farlands.zip": {},
+        "New Swamplands.zip": {},
+        "Oil Station.zip": {},
+        "Old Swamplands.zip": {},
+        "Railway.zip": {},
+        "Suburbs.zip": {},
+        "Subway Lines.zip": {}
+      },
+      "The City [OTS] [OER] [TC2] [PTC]": {
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Intercity Station.zip": {},
+        "Oil Extraction Rig.zip": {},
+        "The City.zip": {},
+        "The Climb.zip": {}
+      },
+      "Underwater Complex [ILTE] [UWC]": {
+        "Island Lost To Elsewhere.zip": {},
+        "Underwater Complex.zip": {}
+      },
+      "Void's Scrapped Regions and Forgotten Dawn [AN] [RE] [HA]": {
+        "Forgotten Dawn.zip": {},
+        "Primordial Shore.zip": {},
+        "Scarlet Forest.zip": {}
+      },
+      "Winter's End [Z1] [Z2] [Z3] [Z4] [Z5]": {
+        "Ashen Desolation.zip": {},
+        "Blizzard's Embrance.zip": {},
+        "Conduit Reliquary.zip": {},
+        "Frost Fall Expanse.zip": {},
+        "Gates.zip": {},
+        "Outpost Citadel.zip": {}
+      },
+      "Reclaiming Entropy [AQ] [FD] [GM] [FU] [MA] [WD] [PY] [RB] [TK] [SO] [WT]": {
+        "Aquafir Tunnels.zip": {},
+        "Fading Moonlight.zip": {},
+        "Gates.zip": {},
+        "Gloomy Marshland.zip": {},
+        "Heart of the Jungle.zip": {},
+        "Mountin Abound.zip": {},
+        "Nascent Woods.zip": {},
+        "Pipegrave.zip": {},
+        "Rusted Basin.zip": {},
+        "Scrapped and Unused Rooms.zip": {},
+        "Smokestack Treetop.zip": {},
+        "Sunlit Alleyways.zip": {},
+        "Withstanding Factory.zip": {}
+      },
+      "The Evergreen Expansion": {
+        "RIV WORLDSTATE.zip": {},
+        "SAINT + EVERGREEN WORLDSTATE.zip": {}
+      },
+      "Sunlit Trail [CW] [FR] [GU] [EU] [MF] [NP] [PA] [SD]": {
+        "Chasing Wind.zip": {},
+        "Far Shore.zip": {},
+        "Gray Urban.zip": {},
+        "Luminous Cove.zip": {},
+        "Moss Fields.zip": {},
+        "Necropolis.zip": {},
+        "Pilgrims Ascent.zip": {},
+        "Scorched District.zip": {},
+        "Seer.zip": {}
+      }
+    },
+    "Archived Level Editors": {
+      "Myrmice's Extras": {
+        "Myrmice's Extras.zip": {}
+      },
+      "Tcan's Rooms": {
+        "Tcan's Rooms.zip": {}
+      },
+      "Carrotpudding's Level Editor": {
+        "Carrotpudding's Level Editor.zip": {},
+        "00_GATE.zip": {},
+        "Aqueducts.zip": {},
+        "Arenaprojects.zip": {},
+        "finishedOA.zip": {},
+        "OAconnection.zip": {},
+        "remakeOA.zip": {},
+        "Ruined atrium.zip": {},
+        "Underbelly.zip": {},
+        "ytesting.zip": {}
+      },
+      "Fishswallower's Editor": {
+        "Fishswallower's Editor.zip": {},
+        "Graphics.zip": {},
+        "LevelEditorProjects.zip": {},
+        "Levels.zip": {},
+        "Props.zip": {},
+        "Works.zip": {}
+      }
+    },
+    "Vanilla+DLC": {
+      "Aether Ridge [WARF]": {
+        "Aether Ridge [WARF].zip": {}
+      },
+      "Ancient Urban [WAUA]": {
+        "Ancient Urban [WAUA].zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Arenas": {
+        "Arenas.zip": {}
+      },
+      "Badlands [WBLA]": {
+        "Badlands [WBLA].zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Chimney Canopy [CC]": {
+        "Chimney Canopy [CC].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped or Unused Rooms.zip": {}
+      },
+      "Cold Storage [WARD]": {
+        "Cold Storage [WARD].zip": {}
+      },
+      "Coral Caves [WRFA]": {
+        "Coral Caves [WRFA].zip": {}
+      },
+      "Corrupted Factories [WHIR]": {
+        "Corrupted Factories [WHIR].zip": {}
+      },
+      "Crumbling Fringes [WSUR]": {
+        "Crumbling Fringes [WSUR].zip": {}
+      },
+      "Daemon [WRSA]": {
+        "Daemon [WRSA].zip": {}
+      },
+      "Decaying Tunnels [WSDR]": {
+        "Decaying Tunnels [WSDR].zip": {}
+      },
+      "Desolate Tract [WTDB]": {
+        "Desolate Tract [WTDB].zip": {}
+      },
+      "Drainage System [DS]": {
+        "Drainage System [DS].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Farm Arrays [LF]": {
+        "Farm Arrays [LF].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Fetid Glen [WARC]": {
+        "Fetid Glen [WARC].zip": {}
+      },
+      "Fractured Gateways [WVWB]": {
+        "Fractured Gateways [WVWB].zip": {}
+      },
+      "Five Pebbles [SS]": {
+        "Five Pebbles [SS].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unusued.zip": {}
+      },
+      "Garbage Wastes [GW]": {
+        "Garbage Wastes [GW].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Heat Ducts [WARE]": {
+        "Heat Ducts [WARE].zip": {}
+      },
+      "Industrial Complex [HI]": {
+        "Industrial Complex [HI].zip": {},
+        "Dense Urban.zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {},
+        "Watcher.zip": {}
+      },
+      "Infested Wastes [WGWR]": {
+        "Infested Wastes [WGWR].zip": {}
+      },
+      "Looks To The Moon [DM]": {
+        "Looks To The Moon [DM].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Outer Expanse [OE]": {
+        "Outer Expanse [OE].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Metropolis [LC]": {
+        "Metropolis [LC].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Outer Rim [WORA]": {
+        "Outer Rim [WORA].zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Migration Path [WMPA]": {
+        "Migration Path [WMPA].zip": {}
+      },
+      "Pipeyard [VS]": {
+        "Pipeyard [VS].zip": {},
+        "Gates.zip": {}
+      },
+      "Outskirts [SU]": {
+        "Outskirts [SU].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Rubicon [HR]": {
+        "Rubicon [HR].zip": {},
+        "Broken.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Pillar Grove [WPGA]": {
+        "Pillar Grove [WPGA].zip": {}
+      },
+      "Shaded Citadel [SH]": {
+        "Shaded Citadel [SH].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Shattered Terrance [WARA]": {
+        "Shattered Terrance [WARA].zip": {}
+      },
+      "Signal Spires [WPTA]": {
+        "Signal Spires [WPTA].zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Rusted Wrecks [WRRA]": {
+        "Rusted Wrecks [WRRA].zip": {}
+      },
+      "Shoreline [SL]": {
+        "Shoreline [SL].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Salination [WARB]": {
+        "Salination [WARB].zip": {}
+      },
+      "Shrouded Stacks [WSKD]": {
+        "Shrouded Stacks [WSKD].zip": {}
+      },
+      "Silent Construct [CL]": {
+        "Silent Construct [CL].zip": {},
+        "Blank.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "The Exterior [UW]": {
+        "The Exterior [UW].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unuesed Rooms.zip": {}
+      },
+      "The Rot [RM]": {
+        "The Rot [RM].zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "The Surface [WARG]": {
+        "The Surface [WARG].zip": {}
+      },
+      "Sky Islands [SI]": {
+        "Sky Islands [SI].zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Torrid Desert [WTDA]": {
+        "Torrid Desert [WTDA].zip": {}
+      },
+      "Submerged Superstructure [MS]": {
+        "Submerged Superstructure [MS].zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Torrential Railways [WSKA]": {
+        "Torrential Railways [WSKA].zip": {}
+      },
+      "Turbulent Pump [WRFB]": {
+        "Turbulent Pump [WRFB].zip": {}
+      },
+      "Undergrowth [UG]": {
+        "Undergrowth [UG].zip": {},
+        "Srapped and Unused Rooms.zip": {}
+      },
+      "Stormy Coast [WSKC]": {
+        "Stormy Coast [WSKC].zip": {}
+      },
+      "Unfortunate Evolution [WSSR]": {
+        "Unfortunate Evolution [WSSR].zip": {}
+      },
+      "Verdant Waterways [WVWA]": {
+        "Verdant Waterways [WVWA].zip": {}
+      },
+      "Subterranean [SB]": {
+        "Subterranean [SB].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {},
+        "Downpour.zip": {}
+      },
+      "Sunbaked Alley [WSKB]": {
+        "Sunbaked Alley [WSKB].zip": {}
+      },
+      "Waterfront Facility [LM]": {
+        "Waterfront Facility [LM].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Tests": {
+        "Tests.zip": {},
+        "cappin.zip": {}
+      }
+    },
+    "Modded Regions": {
+      "Corroded Manufactory [CRID]": {
+        "Corroded Manufactory [CRID].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Bioengineering Center [BI]": {
+        "Bioengineering Center [BI].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Crystal Cave [CY]": {
+        "Crystal Cave [CY].zip": {}
+      },
+      "Curious Ascent [AK]": {
+        "Curious Ascent [AK].zip": {},
+        "Connections.zip": {}
+      },
+      "Dark Meadows [DKM]": {
+        "Dark Meadows [DKM].zip": {},
+        "Gates.zip": {}
+      },
+      "Dark Pipework [9J]": {
+        "Dark Pipework [9J].zip": {}
+      },
+      "Citadel [UU]": {
+        "Citadel [UU].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Data Manifold [MD]": {
+        "Data Manifold [MD].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Aether Ridge [AR]": {
+        "Aether Ridge [AR].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Cliffside Gardens [B4]": {
+        "Cliffside Gardens [B4].zip": {},
+        "Gates.zip": {}
+      },
+      "Decaying Wastes [M5]": {
+        "Decaying Wastes [M5].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Watcher.zip": {}
+      },
+      "Anthill [ANT]": {
+        "Anthill [ANT].zip": {},
+        "Arenas.zip": {}
+      },
+      "Derelict Installation [DLI]": {
+        "Derelict Installation [DLI].zip": {},
+        "Connections.zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Hazy Installation.zip": {},
+        "Storage Racks.zip": {}
+      },
+      "Desert Bus [BUS]": {
+        "Desert Bus [BUS].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Cliffside [LI]": {
+        "Cliffside [LI].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped or Unuesed Rooms.zip": {}
+      },
+      "Aqueducts [OA]": {
+        "Aqueducts [OA].zip": {},
+        "Connections.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Deserted Wastelands [DW]": {
+        "Deserted Wastelands [DW].zip": {},
+        "Connections.zip": {}
+      },
+      "Archaic Facility [KF]": {
+        "Archaic Facility [KF].zip": {},
+        "Gates.zip": {}
+      },
+      "Drainage Canal [DC]": {
+        "Drainage Canal [DC].zip": {},
+        "Gates.zip": {}
+      },
+      "Coastal Industry [IZ]": {
+        "Coastal Industry [IZ].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Ferrous Steppes [QF]": {
+        "Ferrous Steppes [QF].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Five Cycles at Pebbles [FCAP]": {
+        "Five Cycles at Pebbles [FCAP].zip": {}
+      },
+      "Arid Barrens [AB]": {
+        "Arid Barrens [AB].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Drowned Pantheon [DP]": {
+        "Drowned Pantheon [DP].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Dusty Wireworks [W7]": {
+        "Dusty Wireworks [W7].zip": {},
+        "Gates.zip": {}
+      },
+      "Coastline Cliffs [ĘP]": {
+        "Coastline Cliffs [ĘP].zip": {}
+      },
+      "Forgotten Boiler [FB]": {
+        "Forgotten Boiler [FB].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Forsaken Factory [F1]": {
+        "Forsaken Factory [F1].zip": {},
+        "Gates.zip": {}
+      },
+      "Concealed Gardens [CG]": {
+        "Concealed Gardens [CG].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Ashen Bow [QL]": {
+        "Ashen Bow [QL].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Auxiliary Intake [IP]": {
+        "Auxiliary Intake [IP].zip": {},
+        "Areans.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Coral Caves [RF]": {
+        "Coral Caves [RF].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Gloaming Refinery [WAGR]": {
+        "Gloaming Refinery [WAGR].zip": {}
+      },
+      "Badlands [BL]": {
+        "Badlands [BL].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Grand Resevoir [WY]": {
+        "Grand Resevoir [WY].zip": {},
+        "Connections.zip": {}
+      },
+      "Eroded Refinery [ER]": {
+        "Eroded Refinery [ER].zip": {},
+        "Connections.zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Eventide [EV]": {
+        "Eventide [EV].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Saint.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Extremely Unfair Parkour [PARKOUR]": {
+        "Extremely Unfair Parkour [PARKOUR].zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Marshland Wastes [ML]": {
+        "Marshland Wastes [ML].zip": {},
+        "Connections.zip": {}
+      },
+      "Overgrown Facility [W2]": {
+        "Overgrown Facility [W2].zip": {},
+        "Gates.zip": {}
+      },
+      "Midnight Meadows [NM]": {
+        "Midnight Meadows [NM].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Outer Outskirts [VQ]": {
+        "Outer Outskirts [VQ].zip": {},
+        "Connections.zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {}
+      },
+      "Misty Marish [TTMI]": {
+        "Misty Marish [TTMI].zip": {},
+        "Connections.zip": {}
+      },
+      "Hallowed Grotto [HH]": {
+        "Hallowed Grotto [HH].zip": {},
+        "Artificer.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Gourmand.zip": {},
+        "Gravel Eater.zip": {},
+        "Hunter.zip": {},
+        "Incan.zip": {},
+        "Monk.zip": {},
+        "Rivult.zip": {},
+        "Saint.zip": {},
+        "Spearmaster.zip": {}
+      },
+      "Preservatory [PV]": {
+        "Preservatory [PV].zip": {}
+      },
+      "Moonlit Acres [HW]": {
+        "Moonlit Acres [HW].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Purification Conduits [BY]": {
+        "Purification Conduits [BY].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Probationary District 4B [4B]": {
+        "Probationary District 4B [4B].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Rusted Factory (SFFF)": {
+        "Rusted Factory (SFFF).zip": {},
+        "Gates.zip": {}
+      },
+      "Rusted Canals [2G]": {
+        "Rusted Canals [2G].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Hanging Gardens [GH] & [HG]": {
+        "Hanging Gardens [GH] & [HG].zip": {},
+        "Old Hanging Gardens.zip": {}
+      },
+      "Mossy Rifts [1M]": {
+        "Mossy Rifts [1M].zip": {}
+      },
+      "Sacred Garden [SC]": {
+        "Sacred Garden [SC].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Howling Rift [HC]": {
+        "Howling Rift [HC].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Overgrown Sanctuary [FQ]": {
+        "Overgrown Sanctuary [FQ].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Downpour.zip": {},
+        "Gates.zip": {}
+      },
+      "Scrapped Peaks [SP]": {
+        "Scrapped Peaks [SP].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Seafloor Base [DDDD]": {
+        "Seafloor Base [DDDD].zip": {}
+      },
+      "Sanctum of Stillness [AW]": {
+        "Sanctum of Stillness [AW].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Forsaken Station and Forlorn Valley [VX] & [FT]": {
+        "Forsaken Station and Forlorn Valley [VX] & [FT].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Forlorn Valley.zip": {},
+        "Gates.zip": {}
+      },
+      "Industrial Outflow [IDDC]": {
+        "Industrial Outflow [IDDC].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Sizzling Sewers [UF]": {
+        "Sizzling Sewers [UF].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Scaggy Town [QQ]": {
+        "Scaggy Town [QQ].zip": {}
+      },
+      "Solemn Quarry [SZ]": {
+        "Solemn Quarry [SZ].zip": {}
+      },
+      "Mud Pools [MUDP]": {
+        "Mud Pools [MUDP].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Neuron Forest [NF]": {
+        "Neuron Forest [NF].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Gilded Sanctuary [GS]": {
+        "Gilded Sanctuary [GS].zip": {},
+        "Gates.zip": {}
+      },
+      "Old Infrastructure [RA] & [TAS]": {
+        "Test rooms.zip": {},
+        "The Garden.zip": {}
+      },
+      "The Final Frontier [O5]": {
+        "The Final Frontier [O5].zip": {}
+      },
+      "Sky Tower [KY]": {
+        "Sky Tower [KY].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "The Foundry [F3]": {
+        "The Foundry [F3].zip": {}
+      },
+      "Sky Port [S9]": {
+        "Sky Port [S9].zip": {},
+        "arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Secluded Pass [SEC]": {
+        "Secluded Pass [SEC].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Overgrown Urban [O7] [WAO7]": {
+        "Overgrown Urban [O7] [WAO7].zip": {},
+        "Connections.zip": {},
+        "Decaying Capital.zip": {},
+        "Gates.zip": {}
+      },
+      "The Grinder [MT]": {
+        "The Grinder [MT].zip": {},
+        "Gates.zip": {}
+      },
+      "Soaring Lookout [JJ]": {
+        "Soaring Lookout [JJ].zip": {},
+        "Arenas.zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Industrial Underpass [NB]": {
+        "Industrial Underpass [NB].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Lost Cranny [XD]": {
+        "Lost Cranny [XD].zip": {},
+        "Gates.zip": {}
+      },
+      "Overgrown Waterworks [LS]": {
+        "Overgrown Waterworks [LS].zip": {},
+        "Arenas.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {},
+        "Connections.zip": {}
+      },
+      "Sequestered Facility [SEQF]": {
+        "Sequestered Facility [SEQF].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Pearlescent Chambers [PZLA] & [PZLB]": {
+        "Pearlescent Chambers [PZLA] & [PZLB].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "The Lost Tunnels [LT]": {
+        "The Lost Tunnels [LT].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "Steel Mill [SM]": {
+        "Steel Mill [SM].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "The Root [TR]": {
+        "The Root [TR].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {},
+        "Downpour.zip": {}
+      },
+      "The Steamyards [JH]": {
+        "The Steamyards [JH].zip": {}
+      },
+      "The Tower [TT]": {
+        "The Tower [TT].zip": {}
+      },
+      "Weakened Platform [WP]": {
+        "Weakened Platform [WP].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Arenas.zip": {},
+        "Scrapped and Unused Rooms.zip": {}
+      },
+      "Sun-Scorched Forest [NR]": {
+        "Sun-Scorched Forest [NR].zip": {}
+      },
+      "Peripheral Wreckage [P2]": {
+        "Peripheral Wreckage [P2].zip": {},
+        "Gates.zip": {}
+      },
+      "Lush Mire [LW]": {
+        "Lush Mire [LW].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "Marked Block Sector [MKB]": {
+        "Marked Block Sector [MKB].zip": {}
+      },
+      "Underbelly [UB]": {
+        "Underbelly [UB].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Western Intake [1S]": {
+        "Western Intake [1S].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Power Plant [PP]": {
+        "Power Plant [PP].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Sunlit Power Plant [SP]": {
+        "Sunlit Power Plant [SP].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "The Mast and Ashen Monolith [XM] & [TM]": {
+        "The Mast and Ashen Monolith [XM] & [TM].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Old Old Mast.zip": {},
+        "Ashen Monolith.zip": {}
+      },
+      "The Outline [TO]": {
+        "The Outline [TO].zip": {},
+        "Connections.zip": {}
+      },
+      "Seven Winding Tunnels [SWT] [TDC] & [HCT]": {
+        "Seven Winding Tunnels [SWT] [TDC] & [HCT].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Saint.zip": {},
+        "Rivult.zip": {}
+      },
+      "Tainted Overpass [TO]": {
+        "Tainted Overpass [TO].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "The Pipe [TP]": {
+        "The Pipe [TP].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "The Radiosphere [RA]": {
+        "The Radiosphere [RA].zip": {},
+        "Gates.zip": {}
+      },
+      "Underpass [TX]": {
+        "Underpass [TX].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {}
+      },
+      "Silent Scenery [SHH]": {
+        "Silent Scenery [SHH].zip": {},
+        "Connections.zip": {},
+        "Gates.zip": {},
+        "Scrapped and Unused Rooms.zip": {},
+        "Arenas.zip": {}
+      },
+      "Undersea [US]": {
+        "Undersea [US].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "The Cusp [AQTC]": {
+        "The Cusp [AQTC].zip": {},
+        "Gates.zip": {},
+        "Connections.zip": {}
+      },
+      "Urban Reservoir [RV]": {
+        "Urban Reservoir [RV].zip": {}
+      },
+      "Waxing Candleflame [WCF]": {
+        "Waxing Candleflame [WCF].zip": {},
+        "Gates.zip": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.main-container {
+    margin: 2% 5%;
+    padding: 5%;
+}
+
+
+.text-guides {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: normal;
+    max-width: 850px;
+    padding: 0 2%;
+}
+
+.text-guides .topic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.text-guides .topic:not(:last-child) {
+    border-bottom: 2px solid var(--text-color-faded-faded);
+}
+.text-guides .topic.active:last-child {
+    margin-bottom: 2%;
+}
+.text-guides .topic.active {
+    border-bottom: none;
+}
+
+.topic .title {
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    backdrop-filter: blur(25px);
+}
+.topic.active .title {
+    width: 100%;
+    position: sticky;
+    top: -1px;
+    margin: 0;
+}
+.topic.active .title.sticky {
+    border-bottom: 3px solid var(--text-color-faded-faded);
+}
+.topic.active:hover .title.sticky {
+    border-bottom-color: var(--text-color);
+}
+.topic .title h2 {
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: text-shadow 0.3s, border 0.5s;
+    font-weight: 400;
+    font-size: 0.28em;
+    text-align: left;
+}
+.title .copy-link {
+    width: 20px;
+    top: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.title:hover .copy-link {
+    opacity: 1;
+}
+.topic:hover:not(.active) h2 {
+    text-shadow: 0 0 5px;
+}
+.topic.active .title h2 {
+    margin-bottom: 0;
+}
+
+.topic .topic-content {
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 0;
+    padding: 0 2%;
+    max-height: 0;
+    color: transparent;
+    transition: border 0.5s, max-height 0.1s, padding 0.1s, color 0.5s;
+    overflow: hidden;
+    font-size: medium;
+    line-height: 1.5em;
+}
+
+.topic.active .topic-content {
+    color: var(--text-color);
+    border: 3px solid var(--text-color-faded-faded);
+    padding: 1% 2%;
+    max-height: fit-content;
+}
+.topic.active:hover .topic-content {
+    border-color: var(--text-color);
+}
+
+.topic-content a {
+    text-decoration: underline;
+}
+.topic-content li {
+    margin-left: 30px;
+}
+
+/* Colors for guide text */
+.text-warning {
+    color: rgb(255, 119, 119);
+    font-weight: bold;
+}

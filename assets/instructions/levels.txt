@@ -1,0 +1,8 @@
+{unzip} [Extract|https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5] the contents of the downloaded `.zip` file.
+{move} Move the extracted `.txt` and `.png` files into another window with the folder specified by your program open.
+[program specific]
+Rained | Can be accessed from anywhere with the file browser, the default folder is: `{program}/Data/LevelEditorProjects/` or the source data program's folder.
+Henry's | Can be accessed from anywhere with the file browser, the default folder is: `{program}/projects/`
+Community / RWE+ / Ogscule / Official | `{program}/LevelEditorProjects/`
+[/]
+The `.txt` file contains the level information in the syntax used by the level editor, while the `.png` is for the light map used when rendering.

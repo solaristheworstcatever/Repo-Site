@@ -1,0 +1,473 @@
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Raindondo;
+    src: 
+        local("Raindondo"),
+        url(./assets/fonts/Raindondo.otf);
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+    background-image: url(../media/img/background/Effects.jpg);
+    overflow-x: hidden;
+    transition: none;
+    font-size: large;
+    --background: rgba(0, 0, 0, 0.6);
+    --border: #FFF;
+    --border-radius: 25px;
+    --text-color: #FFF;
+    --text-color-faded: rgba(255, 255, 255, 0.774);
+    --text-color-faded-faded: rgba(255, 255, 255, 0.55);
+    --inactive-bg: rgba(255, 255, 255, 0.178);
+    scrollbar-width: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-faded);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-color);
+} 
+
+#loading-screen {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: #000000;
+    z-index: 100;
+    transition: opacity 0.5s linear;
+}
+
+#loading-screen .loading-progress {
+    height: 20px;
+    border: 3px solid var(--text-color);
+    width: 30%;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#loading-screen .loading-progress-bar {
+    background-color: var(--text-color);
+    height: 100%;
+    border-radius: 50px;
+}
+
+#loading-screen p {
+    color: var(--text-color);
+    width: 100%;
+    text-align: center;
+    font-family: 'Raindondo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    padding-top: 5%;
+    background-image: linear-gradient(135deg,
+        #bcbcbc 30%, #cccccc 30%, #cccccc 35%, #bcbcbc 35%,
+        #bcbcbc 50%, #FFF 55%, #FFF 60%, #bcbcbc 60%,
+        #bcbcbc 70%,#FFF 70%, #FFF 75%, #bcbcbc 75%,
+        #bcbcbc 80%,#FFF 80%, #FFF 85%, #bcbcbc 85%);
+    color: transparent;
+    background-clip: text;
+    background-size: 500% auto;
+    width: 100%;
+    text-align: center;
+    font-family: "Raindondo", "Segoe UI";
+    font-size: 10vw;
+    font-weight: 900;
+    animation: title 7s linear infinite;
+    filter: drop-shadow(0 0 5px #000);
+}
+
+@keyframes title {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.container {
+    background-color: var(--background);
+    border: 3px solid var(--border);
+    outline: 10px solid var(--background);
+    border-radius: var(--border-radius);
+    color: var(--text-color-faded);
+    backdrop-filter: blur(30px);
+}
+.container a {
+    color: var(--text-color-faded);
+    text-decoration: none;
+}
+.container a:hover {
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raindondo", "Segoe UI";
+}
+h1, h2 {
+    color: var(--text-color);
+}
+hr {
+    border: 0 solid var(--border);
+    border-top-width: 3px;
+}.introduction {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+}
+.intro-title h2 {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.introduction-blurb {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.img-container {
+    margin: auto;
+    width: 250px;
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: calc(var(--border-radius) / 1.5);
+    border: 3px solid var(--border);
+    overflow: hidden;
+    justify-content: center;
+}
+
+.introduction .intro-title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    margin-left: 10px;
+}
+.introduction-blurb p {
+    margin: 0;
+    margin-bottom: 1em;
+}
+.introduction-blurb .quote {
+    font-size: medium;
+    color: var(--text-color-faded-faded);
+    text-align: right;
+}
+
+.h1-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-wrap: nowrap;
+    gap: 20px;
+    line-height: 10px;
+    transition: filter 0.2s;
+    clear: both;
+}
+.h1-container:hover {
+    filter: drop-shadow(0 0 2px var(--text-color-faded));
+}
+.h1-container + * {
+    margin-top: 0;
+}
+.h1-divider {
+    width: 100%;
+}
+.copy-link {
+    opacity: 0;
+    width: 25px;
+    position: relative;
+    top: 5px;
+    transition: opacity 0.1s;
+}
+
+.h1-container#left {
+    margin-left: -20px;
+}
+.h1-container#right {
+    margin-right: -20px;
+}
+.h1-container .copied {
+    position: absolute;
+    top: -5px;
+    animation: float 1s linear;
+}
+.h1-container#left .copied {
+    left: -15px;
+}
+.h1-container#right .copied {
+    right: -20px;
+}
+@keyframes float {
+    0% {
+        top: -5px;
+        opacity: 1;
+    }
+    100% {
+        top: -20px;
+        opacity: 0;
+    }
+}
+
+.section-container {
+    position: fixed;
+    width: 200px;
+    background-color: var(--background);
+    top: 150px;
+    left: -180px;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    z-index: 1;
+    text-align: center;
+    transition: left 0.15s ease-in-out;
+}
+.section-container:hover {
+    left: 0;
+}
+.section-container hr {
+    width: 80%;
+}
+.section-list {
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-list h3 {
+    margin: 10px;
+    word-wrap: normal;
+}
+
+@media screen and (max-width: 850px) {
+    .section-container {
+        display: none;
+    }
+    .main-container {
+        margin: 5%;
+    }
+
+    .introduction .intro-title {
+        gap: 0;
+    }
+    .introduction .intro-title h4 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .introduction .intro-title, .introduction-blurb {
+        flex-direction: column;
+    }
+    .copy-link {
+        display: none;
+    }
+    .h1-container#left, .h1-container#right {
+        margin: 0;
+    }
+    .img-container {
+        width: 300px;
+    }
+}
+
+
+.instructions {
+    max-width: 650px;
+    margin: auto;
+    padding: 2%;
+}
+
+.instructions h2 {
+    margin: 0;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+code {
+    color: var(--text-color);
+    background-color: var(--inactive-bg);
+    font-family: 'Consolas', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 0 2px;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.step img {
+    width: 50px;
+    height: 40px;
+    margin: auto 0;
+    flex-shrink: 0;
+}
+.step a {
+    text-decoration: underline;
+}
+.program-specific {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 5%;
+}
+.program-specific p {
+    padding: 0 2%;
+}
+.program-specific .program-tabs .tabs-filler {
+    background-color: var(--inactive-bg);
+    width: 100%;
+}
+.program-specific .program-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.program-specific .program-tabs button {
+    border: none;
+    background-color: var(--inactive-bg);
+    color: var(--text-color);
+    padding: 2% 3%;
+    font-size: medium;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.program-specific .program-tabs button:hover {
+    background-color: transparent;
+    color: var(--text-color-faded);
+}
+.program-specific .program-tabs button.active {
+    background-color: transparent;
+    color: var(--text-color-faded);
+}
+.program-specific .program-tabs button.active:hover {
+    background-color: transparent;
+}
+
+.select {
+    width: 100%;
+    background-color: transparent;
+    color: var(--text-color-faded);
+    border: 3px solid var(--border);
+    border-radius: 20px;
+    padding: 0 2%;
+    font-size: medium;
+    position: relative;
+    z-index: 100;
+    transition: border-color 0.2s;
+}
+.select:hover, .select:focus {
+    border-color: var(--text-color-faded);
+    outline: none;
+}
+.select-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.select-container p {
+    margin: 0;
+    flex-grow: 1;
+}
+.select-container img {
+    width: 12px;
+    font-weight: bold;
+    transform: scaleY(-1);
+}
+.option-container {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background-color: var(--background);
+    backdrop-filter: blur(30px);
+    border: 3px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.select-option {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 6%;
+}
+.select-option p {
+    margin: 0;
+    flex-grow: 1;
+}
+.select-option img {
+    width: 12px;
+    rotate: -90deg;
+    opacity: 0;
+}
+.select-option:not(:hover):not(.selected) {
+    background-color: var(--text-color-faded);
+    color: black;
+}
+.select-option:not(:hover).selected {
+    background-color: var(--inactive-bg);
+}
+.select-option:hover img, .select-option.selected img {
+    opacity: 1;
+}
+
+#search-bar {
+    width: calc(100% - 35px);
+    background-color: transparent;
+    background-image: url("../media/img/icons/search_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 3px solid var(--border);
+    border-radius: 20px;
+    color: var(--text-color-faded);
+    padding: 1%;
+    font-size: large;
+    position: relative;
+    transition: border 0.2s ease-in-out;
+    padding-left: 35px;
+}
+#search-bar:hover, #search-bar:focus {
+    border: 3px solid var(--text-color-faded);
+    outline: none;
+}
+
+#search-bar img {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+}
